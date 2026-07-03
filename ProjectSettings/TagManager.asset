@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - RedSkill
+  - Enemy
+  - RedItem
+  - YellowSkill
+  - SpaceKingSkill1HitZone
+  - Ground
+  - SpaceKing
+  - SpaceKingSkill1
+  - SpaceKingSkillFire
+  - SpaceKingSkill2
+  - Gauntlet
+  - HeartItem
+  - CloverItem
+  - DiamondItem
+  - SpearSkill
+  - CloverArrow
+  - Canvas
+  - DirtGround
+  - StoneGround
+  - MarbleGround
+  - EnemyHpBar
+  - MainCanvas
+  - SpaceKingSkill2Zone
+  - SpaceKingSkill3Zone
+  - SpadeSpecialSkill
+  - NoDestroyEnemy
+  - CloverSkillEffect
+  - SpadeAttack
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - MalePlayer
+  - FemalePlayer
+  - Enemy
+  - PatternItem
+  - CamerCollider
+  - EnemyWall
+  - PlayerAttack
+  - EnemyHeal
+  - SpadeSpecialSkill
+  - Potal
+  - BossEnemy
+  - BossAttack2
+  - SpaceKing
+  - Platform
+  - SkyCollider
+  - BossSkill3
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
