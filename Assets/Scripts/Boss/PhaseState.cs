@@ -8,6 +8,9 @@ public class PhaseState : MonoBehaviour
 
     Animator ani;
 
+    private float onePhaseHp = 300f;
+    private float twoPhaseHp = 175f;
+
     public enum State //페이즈 상태
     {
         onePhase,
@@ -53,7 +56,7 @@ public class PhaseState : MonoBehaviour
                 break;
             case State.onePhaseing: //1페이즈 중
                 {
-                    if(SpaceKingHit.instance.hp <= 300 && SpaceKing.instance.state == SpaceKing.State.skill2Idle
+                    if(SpaceKingHit.instance.hp <= onePhaseHp && SpaceKing.instance.state == SpaceKing.State.skill2Idle
                         && !SpaceKing.instance.skill2End)
                     {
                         SpaceKing.instance.state = SpaceKing.State.skillRandom1;
@@ -97,7 +100,7 @@ public class PhaseState : MonoBehaviour
                             time += Time.deltaTime;
                     }
 
-                    if (SpaceKingHit.instance.hp <= 175 && (SpaceKing.instance.state == SpaceKing.State.skillExit
+                    if (SpaceKingHit.instance.hp <= twoPhaseHp && (SpaceKing.instance.state == SpaceKing.State.skillExit
                     || SpaceKing.instance.state == SpaceKing.State.skill2End)
                     && !SpaceKing.instance.skill1End)
                     {
